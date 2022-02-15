@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default tagName => {
+export default (tagName) => {
   const CustomElement = tagName;
 
   return class extends React.Component {
@@ -19,7 +19,7 @@ export default tagName => {
 
     syncProps(props) {
       const el = this.element.current;
-      Object.keys(props).forEach(name => {
+      Object.keys(props).forEach((name) => {
         if (name === 'children' || name === 'style') {
           return;
         }
