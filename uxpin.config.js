@@ -6,9 +6,13 @@ module.exports = {
         name: 'Scale',
         include: [
           'src/components/ScaleButton/ScaleButton.jsx',
-          'src/components/ScaleTag/ScaleTag.jsx',
-          'src/components/ScaleSwitch/ScaleSwitch.jsx',
+          // 'src/components/ScaleBreadcrumb/ScaleBreadcrumb.jsx',
+          'src/components/ScaleCheckbox/ScaleCheckbox.jsx',
           'src/components/ScaleDropdown/ScaleDropdown.jsx',
+          'src/components/ScaleRatingStars/ScaleRatingStars.jsx',
+          'src/components/ScaleSwitch/ScaleSwitch.jsx',
+          'src/components/ScaleTag/ScaleTag.jsx',
+          'src/components/ScaleTextField/ScaleTextField.jsx',
         ],
       },
       {
