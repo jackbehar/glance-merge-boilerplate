@@ -13,6 +13,9 @@ module.exports = {
           'src/components/ScaleSwitch/ScaleSwitch.jsx',
           'src/components/ScaleTag/ScaleTag.jsx',
           'src/components/ScaleTextField/ScaleTextField.jsx',
+          'src/components/ScaleDatePicker/ScaleDatePicker.jsx',
+          'src/components/ScaleDivider/ScaleDivider.jsx',
+          'src/components/ScaleRadioButton/ScaleRadioButton.jsx',
         ],
       },
       {
