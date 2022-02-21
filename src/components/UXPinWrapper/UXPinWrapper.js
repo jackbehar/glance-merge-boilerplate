@@ -13,5 +13,5 @@ document.body.appendChild(initializeJavascript);
 
 
 export default function UXPinWrapper({ children }) {
-  return children;
+  return <div style={{display: "inline-block"}}>{children}</div>;
 }

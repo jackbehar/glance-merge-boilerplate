@@ -4,17 +4,22 @@ import { v4 as uuidv4 } from 'uuid';
 import ReactWrapper from '../UXPinWrapper/react-wrapper';
 // import { iconVariants } from '../ScaleIcon/IconVariants';
 
-const id = uuidv4();
+
 
 function ScaleButton(props) {
   const WrappedButton = ReactWrapper('scale-button');
-
+  const { uxpinRef, ...other } = props;
+  const id = uuidv4();
   return (
-    <WrappedButton {...props} id={id}>
+
+    <div>
+
+    <WrappedButton {...other} id={id} >
       {props.icon !== 'none' && props.iconPosition === 'before' ? <scale-icon-service-settings></scale-icon-service-settings> : null}
       {props.children}
       {props.icon !== 'none' && props.iconPosition === 'after' ? <scale-icon-service-settings></scale-icon-service-settings> : null}
     </WrappedButton>
+    </div> 
   );
 }
 
