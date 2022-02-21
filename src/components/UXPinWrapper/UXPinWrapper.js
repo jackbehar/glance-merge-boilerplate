@@ -2,12 +2,12 @@
 import React from 'react';
 
 const encapsulatingStyles = document.createElement('link');
-encapsulatingStyles.setAttribute('href', 'https://unpkg.com/@telekom/scale-components-neutral/dist/scale-components/scale-components.css');
+encapsulatingStyles.setAttribute('href', 'https://unpkg.com/@telekom/scale-components/dist/scale-components/scale-components.css');
 encapsulatingStyles.setAttribute('rel', 'stylesheet');
 document.head.appendChild(encapsulatingStyles);
 
 const initializeJavascript = document.createElement('script');
-initializeJavascript.setAttribute('src', 'https://unpkg.com/@telekom/scale-components-neutral/dist/scale-components/scale-components.esm.js');
+initializeJavascript.setAttribute('src', 'https://unpkg.com/@telekom/scale-components/dist/scale-components/scale-components.esm.js');
 initializeJavascript.setAttribute('type', 'module');
 document.body.appendChild(initializeJavascript);
 
