@@ -1,3 +1,5 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
 # Logs
 logs
 *.log
@@ -7,7 +9,6 @@ yarn-error.log*
 
 # IDE directories
 .idea
-.vscode
 
 # Runtime data
 pids
@@ -66,3 +67,14 @@ typings/
 
 # Merge
 .uxpin-merge
+
+package-lock.json
+
+# vs-code 
+
+.vscode
+
+# Docz
+
+.docz/cache
+node_modules
