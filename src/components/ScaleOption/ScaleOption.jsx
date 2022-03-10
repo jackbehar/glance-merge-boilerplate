@@ -10,9 +10,6 @@ function ScaleOption(props) {
 }
 
 ScaleOption.propTypes = {
-  /**
-     * @uxpinignoreprop
-     */
   children: PropTypes.node,
   selected: PropTypes.bool,
   value: PropTypes.string,
