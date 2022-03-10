@@ -14,6 +14,7 @@ module.exports = {
           'src/components/ScaleTag/ScaleTag.jsx',
           'src/components/ScaleTextField/ScaleTextField.jsx',
           'src/components/ScaleDatePicker/ScaleDatePicker.jsx',
+          'src/components/ScaleDataGrid/ScaleDataGrid.jsx',
           'src/components/ScaleDivider/ScaleDivider.jsx',
           'src/components/ScaleRadioButton/ScaleRadioButton.jsx',
         ],
