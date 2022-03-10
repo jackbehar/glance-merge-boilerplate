@@ -9,7 +9,7 @@ function ScaleDataGrid(props) {
   const WrappedDataGrid = ReactWrapper('scale-data-grid');
 
   return (
-    <WrappedDataGrid {...props} id={id} style={{'width':'100%'}} />
+    <WrappedDataGrid {...props} id={id} style={{'min-width':'800px'}} />
   );
 }
 
