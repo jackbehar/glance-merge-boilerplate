@@ -2,7 +2,6 @@ import * as PropTypes from 'prop-types';
 import * as React from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import ReactWrapper from '../UXPinWrapper/react-wrapper';
-// import { iconVariants } from '../ScaleIcon/IconVariants';
 
 
 
@@ -35,7 +34,6 @@ ScaleButton.propTypes = {
   target: PropTypes.string,
   styles: PropTypes.string,
   innerTabindex: PropTypes.string,
-  // icon: PropTypes.oneOf(iconVariants),
 };
 
 ScaleButton.defaultProps = {
